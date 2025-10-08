@@ -10,7 +10,7 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Life Without a Hook", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Life Without Hook", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Varoor", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Die with a Smile", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Teenage Dream", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
@@ -108,5 +108,6 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterPlay.classList.add('fa-pause-circle');
 
 })
+
 
 
