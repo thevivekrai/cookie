@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "The astronaut ", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "My you ", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Wherever u r ", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Letter by Jimin", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Inner Child", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Serendipity", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Like", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Just one day", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Heartbeat ", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Miss right", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Life without Hook", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Varoor", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
+    {songName: "Die with a Smile", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
+    {songName: "Teenage Dream", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
+    {songName: "Diet Mountain Dew", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Wanna be Yours", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Apocalypse", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
+    {songName: "I Think They call this Love", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Blue", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
+    {songName: "I Love You So", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
 
 songItems.forEach((element, i)=>{ 
@@ -106,4 +106,5 @@ document.getElementById('previous').addEventListener('click', ()=>{
     audioElement.play();
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
+
 })
