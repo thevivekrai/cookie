@@ -14,10 +14,10 @@ let songs = [
     {songName: "Varoor", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
     {songName: "Die with a Smile", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
     {songName: "Teenage Dream", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Diet Mountain Dew", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Wanna be Yours", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
+    {songName: "Diet Mountain", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
+    {songName: "Wanna Be Yours", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
     {songName: "Apocalypse", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "I Think They call this Love", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
+    {songName: "They call This Love", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
     {songName: "Blue", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
     {songName: "I Love You So", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
 ]
@@ -108,3 +108,4 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterPlay.classList.add('fa-pause-circle');
 
 })
+
